@@ -1,0 +1,43 @@
+
+.t-color-g{
+    color: #4c4e5d;
+}
+.nav-tabs .nav-link.active{
+    background-color: #42a2a2;
+    color: white;
+    border-color: #42a2a2 #42a2a2;
+}
+.nav-link {
+    color: #4c4e5d;
+}
+.nav-link:focus, .nav-link:hover {
+    border-color: #42a2a2 #42a2a2 #fff;
+    background-color: #42a2a2;
+    color: white;
+}
+
+.top-navbar{
+    padding: 20px;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 
+    0px 1px 10px 0px rgb(0 0 0 / 12%);
+    background-color: white;
+    max-width: 1400px;
+    margin: auto;
+}
+.app-logo{
+    color: #42a2a2;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 150px;
+}
+.app-logo:hover{
+    color: #42a2a2;
+}
+
+/* ------------------------------------Media queries----------------------- */
+@media only screen and (max-width: 992px) {
+    .app-logo {
+        margin-bottom: 10px;
+    }
+}
